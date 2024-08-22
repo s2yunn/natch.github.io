@@ -3,55 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>NATCHAYADA THAIWONGSAKUL (서윤) - Profile</title>
     <style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: #f5f5f5;
-        }
-        .header {
-            background-color: #333;
-            color: white;
+            background-color: #f4f4f4;
+            color: #333;
             padding: 20px;
             text-align: center;
         }
-        .content {
-            margin: 20px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
             padding: 20px;
-            background-color: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 24px;
+            font-size: 2em;
+            color: #333;
         }
-        p {
+        h2 {
+            color: #555;
+            margin-top: 20px;
+        }
+        p, ul {
+            text-align: left;
             line-height: 1.6;
             color: #666;
         }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "•";
+            color: #ff6600;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>My Profile</h1>
-    </div>
-    <div class="content">
-        <p>Welcome to my personal profile page. Here you can find my projects, skills, and contact information.</p>
-        <!-- You can add more sections similar to this -->
-    </div>
-    <div class="footer">
-        <p>© 2024 Your Name</p>
+    <div class="container">
+        <h1>NATCHAYADA THAIWONGSAKUL (서윤)</h1>
+        <h2>Introduction</h2>
+        <ul>
+            <li>Fluent in Korean and Thai</li>
+            <li>Proficient in translating, proofreading, and localizing content across different media</li>
+            <li>Specialization in gaming, film, entertainment, tourism, and education industries</li>
+            <li>Experienced in Localization Quality Assurance (LQA)</li>
+        </ul>
+        <h2>About Me</h2>
+        <p>
+            I'm a Korean-Thai translator currently a student at Hankuk University of Foreign Studies (HUFS) pursuing a master's degree in translation. Having worked in a variety of industries, including games, films, entertainment, tourism, music, and education, I am proficient in translating, proofreading, and localizing content across different media. I also bring expertise in Localization Quality Assurance (LQA) to guarantee the best possible quality in each project.
+        </p>
     </div>
 </body>
 </html>
